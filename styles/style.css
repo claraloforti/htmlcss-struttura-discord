@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+width: 1500px;
+margin: 0 auto;
+}
+ 
+/* Header */
+
+.header-list-section {
+    height: 50px;
+background-color: rgb(114, 174, 237);
+}
+
+.header-content-section {
+    height: 250px;
+background-color: rgb(8, 8, 87);
+}
+
+/* Main: */
+
+/*-Figure Section*/
+
+.figure-section {
+    
+}
+
+.first-figure {
+
+}
+
+.second-figure {
+
+}
+
+.third-figure {
+
+}
+
+
+/*-Green Section */
+
+.green-section {
+
+}
+
+
+/* Footer */
+
+.footer-content-section {
+
+}
+
+.footer-buttons-section {
+
+}
+
