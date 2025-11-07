@@ -8,6 +8,7 @@ header, main, footer {
 width: 1500px;
 margin: 0 auto;
 }
+
  
 /* Header */
 
@@ -26,36 +27,44 @@ background-color: rgb(8, 8, 87);
 /*-Figure Section*/
 
 .figure-section {
-    
+    height: 900px;
 }
 
 .first-figure {
-
+    height: calc(100% / 3);
+background-color: white;
 }
 
 .second-figure {
-
+    height: calc(100% / 3);
+background-color: grey;
 }
 
 .third-figure {
-
+    height: calc(100% / 3);
+background-color: white;
 }
 
 
 /*-Green Section */
 
 .green-section {
-
+height: 400px;
+background-color: grey;
 }
 
 
 /* Footer */
 
-.footer-content-section {
+footer {
+    background-color: black;
+}
 
+.footer-content-section {
+height: 300px;
 }
 
 .footer-buttons-section {
-
+height: 50px;
 }
 
