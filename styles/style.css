@@ -129,9 +129,15 @@ footer {
 }
 
 .bg-verde-acqua-scuro {
+    display: flex;
     background-color: rgb(44, 175, 169);
     border: 2px dotted white;
     width: calc((100% / 12) * 8);
+}
+
+.lista-uno, .lista-due, .lista-tre, .lista-quattro {
+    flex-basis: calc(100% / 4);
+    border-left: 2px dotted white;
 }
 
 .bg-aquamarine {
