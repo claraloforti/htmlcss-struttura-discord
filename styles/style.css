@@ -14,7 +14,7 @@ footer {
 
 /* Header */
 
-.header-list-section {
+.header-navbar-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,9 +25,12 @@ footer {
 .header-content-section {
     height: 250px;
     background-color: rgb(24, 24, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.link-bar {
+.navbar {
     display: flex;
     justify-content: space-between;
     width: 500px;
@@ -43,13 +46,8 @@ footer {
     border-right: 2px dotted black;
 }
 
-.header-content-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.header-content {
+.header-content-bg-pink {
     width: 400px;
     height: 200px;
     border: 2px dotted black;
@@ -127,23 +125,28 @@ footer {
 .footer-content-section {
     height: 300px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 70%;
+    background-color: black;
     
 }
 
 .footer-buttons-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 100px;
+    width: 200px;
+    background-color: black;
 }
+
 
 .bg-salmon {
     flex-basis: calc((100% / 12) * 4);
     background-color: salmon;
     border: 2px dotted black;
     height: 90%;
+    width: 200px;
 }
 
 .bg-verde-acqua-scuro {
@@ -151,6 +154,7 @@ flex-basis: calc((100% / 12) * 8);
 background-color: rgb(44, 122, 118);
 border: 2px dotted white;
 height: 90%;
+width: 800px;
 }
 
 .bg-aquamarine {
@@ -160,7 +164,10 @@ height: 90%;
     height: 25px;
     border: 2px dotted black;
     background-color: aquamarine;
-    
+}
+
+.button {
+    border: 2px dotted black;
 }
 
 .ul {
