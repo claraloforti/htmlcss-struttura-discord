@@ -102,23 +102,83 @@ footer {
 /*-Green Section */
 
 .green-section {
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.bg-green {
+    width: 70%;
+height: 450px;
+    border: 2px dotted black;
+    background-color: green;
+}
 
 /* Footer */
 
 footer {
-    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.872);
 }
 
 .footer-content-section {
     height: 300px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    
 }
 
 .footer-buttons-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
+}
+
+.bg-salmon {
+    flex-basis: calc((100% / 12) * 4);
+    background-color: salmon;
+    border: 2px dotted black;
+    height: 90%;
+}
+
+.bg-verde-acqua-scuro {
+flex-basis: calc((100% / 12) * 8);
+background-color: rgb(44, 122, 118);
+border: 2px dotted white;
+height: 90%;
+}
+
+.bg-aquamarine {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 25px;
+    border: 2px dotted black;
+    background-color: aquamarine;
+    
+}
+
+.ul {
+    display: flex;
+    flex-basis: calc((100% / 12) * 4);
+    border-right: 2px dotted white;
+
+}
+.prima-lista {
+    
+}
+
+.seconda-lista {
+    
+}
+
+.terza-lista {
+}
+
+.quarta-lista {
 }
